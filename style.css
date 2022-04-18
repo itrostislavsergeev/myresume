@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #0f141e;
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-info{
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 649.98px){
+    .main-info{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    img{
+        margin: auto;
+    }
+}
+img{
+    display: block;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card-info p{
+    color: rgb(85, 82, 82);
+    font-style: italic;
+    max-width: 700px;
+}
+.card-social{
+    background-color: rgba(255, 255, 21, 0.5);
+
+}
+.card-hobbies{
+    background-color: #2e71f7;
+    color: #fff;
+    font-weight: normal;
+}
+.card-connect{
+    background-color: #cbcacb;
+    color: #000000;
+}
+
+.form-group label {
+    display: block;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(17, 0, 54);
+    padding: 15px 0 10px;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    height: 40px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #ddd;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+.btn:active{
+    background-color: #000;
+    color: #ddd;
+}
+
+.card-connect h2{
+    text-align: center;
+    color:#000;
+}
+
